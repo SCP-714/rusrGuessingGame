@@ -17,7 +17,7 @@ fn main() {
     io::stdin()
     .read_line(&mut guess)
     .expect("Failed to read line");
-
+//converts str to num
     let guess: u32 = guess.trim().parse().expect("Please type a number!");
 
     //prints user inputted guess
